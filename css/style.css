@@ -1,9 +1,5 @@
-.button{
-  width: 200px;
-  padding: 10px 0px;
-  color: #fff;
-  background: linear-gradient(#ff5800,
-    #8b00be,
-    rgba(255, 0, 0, 0.2))
-  bordr-radius:30px
-} 
+.menu{
+  width: 360px;
+  margin: 100px auto 0;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
