@@ -1,14 +1,29 @@
-.menu{
+.flex{
+  display: flex;
+  flex-direction: row ;
+    justify-content: space-between;
+  
+}
+
+.box{
+  
+  width: 30%;
+  
+}
+
+
+
+.menu {
   width: 360px;
   margin: 100px auto 0;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-img{
+img {
   width: 100%;
 }
 
-.menu-category{
+.menu-category {
   color: white;
   background-color: #008888;
   width: 70px;
@@ -17,26 +32,26 @@ img{
   margin: 15px 0px 30px 30px;
 }
 
-.menu-explanation{
+.menu-explanation {
   font-size: 18px;
   margin: 0px 20px 30px 30px;
 
 }
 
-.last{
-text-align: right;
-margin-right: 20px;
+.last {
+  text-align: right;
+  margin-right: 20px;
 
 }
 
-.menu-tag{
+.menu-tag {
   font-size: 14px;
   color: #008888;
   margin-bottom: 15px;
   display: inline-block;
 }
 
-.menu-date{
+.menu-date {
   font-size: 14px;
   display: inline-block;
 }
